@@ -1,0 +1,19 @@
+{{result}}
+{% extends "mainlayout.html" %}
+
+{% block maincontent %}
+<table border=1>
+<tr>
+    <th>No</th><th>Name</th><th>DOB</th><th>Tel</th><th>Sex</td><th>Address</th>
+</tr>
+
+{% for result in result %}
+<tr>
+    <td>{{result[0]}}</td><td><a href="viewdetail&id={{result[0]}}">{{result[1]}}</a></td><td>{{result[2]}}</td><td>{{result[3]}}</td>
+    <td>{% if result[4] == "True" %} Male {% else %} Female {% endif %} </td><td>{{result[5]}}</td>
+</tr>
+
+{% endfor %}
+
+</table>
+{% endblock %}

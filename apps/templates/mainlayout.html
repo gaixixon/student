@@ -1,0 +1,19 @@
+<h1>STUDENT MANAGEMENT</h1><br/>
+    {% block header %}
+    this is where header goes
+        {% block title %}
+        {% endblock %}
+    {% endblock %}
+    <br/>
+    {% block topmenu %}
+        {% include "topmenu.html" %}
+    {% endblock %}
+    
+    
+    {% block maincontent %}
+    some content here will be replaced if the calling page has block maincontent tag
+    {% endblock %}
+    
+    {% block footer %}
+        {% include "footer.html" %}
+    {% endblock %}

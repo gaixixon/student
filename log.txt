@@ -1,0 +1,35 @@
+unable to open database fileunable to open database filenear "IF": syntax errornear "IF": syntax errornear "AUTOINCREMENT": syntax errortable student has no column named address
+table student has no column named address
+table student has no column named address
+table student has no column named address
+table student has no column named address
+table student has no column named address
+table student has no column named address
+table student has no column named address
+table student has no column named address
+table student has no column named address
+table student has no column named address
+table student has no column named address
+table student has no column named address
+table student has no column named address
+table student has no column named address
+table student has no column named address
+table student already exists
+table student already exists
+table student already exists
+table student already exists
+table student has no column named address
+NOT NULL constraint failed: student.id
+database is locked
+database is locked
+database is locked
+database is locked
+near "(": syntax error
+near "(": syntax error
+near "(": syntax error
+near "(": syntax error
+near "(": syntax error
+near "(": syntax error
+near "(": syntax error
+near "(": syntax error
+near "(": syntax error
